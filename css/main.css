@@ -1,46 +1,170 @@
-/*
-Error: Invalid CSS after "...s/responsive', ": expected file to import (string or url()), was ";"
-        on line 5 of scss/main.scss
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 33,4% auto 33.3%;
+  grid-gap: 0;
+  background-color: black;
+  color: white;
+  padding: 10px; }
 
-1: @import'partials/variables',
-2:        'partials/base',
-3:        'partials/grids',
-4:        'partials/components',
-5:        'partials/responsive', ;
+.grid-container1 div {
+  background-color: red;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 34px; }
 
-Backtrace:
-scss/main.scss:5
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:1278:in `expected'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:1208:in `expected'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:1188:in `expr!'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:383:in `block in import_directive'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:382:in `loop'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:382:in `import_directive'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:234:in `special_directive'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:209:in `directive'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:696:in `block_child'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:686:in `block_contents'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:41:in `parse'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/engine.rb:414:in `_to_tree'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/plugin/compiler.rb:320:in `block in watch'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...s/responsive', \": expected file to import (string or url()), was \";\"\A         on line 5 of scss/main.scss\A \A 1: @import'partials/variables',\A 2:        'partials/base',\A 3:        'partials/grids',\A 4:        'partials/components',\A 5:        'partials/responsive', ;"; }
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+  background-color: black;
+  color: white;
+  padding: 20%; }
+
+.grid-container2 div {
+  background-color: red;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px; }
+
+.g3-content {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  grid-gap: 20px;
+  background-color: black;
+  color: white;
+  padding: 10%; }
+
+.g3-content div {
+  background-color: red;
+  text-align: center;
+  padding: 1%; }
+
+.item1 {
+  grid-column: span 1;
+  grid-row: span 2; }
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 3; }
+
+.item3 {
+  grid-column-start: 3;
+  grid-column-end: 4; }
+
+.grid-container4 {
+  background-color: black;
+  color: white;
+  padding-top: 3%;
+  padding-left: 10%; }
+
+.g4-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  background-color: black;
+  color: white;
+  padding-right: 10%;
+  padding-bottom: 10%; }
+
+.g4-container div {
+  background-color: red;
+  height: 200px;
+  text-align: center;
+  padding: 1%; }
+
+.grid-container5 {
+  background-color: black;
+  color: white;
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%; }
+
+.g5-content {
+  display: grid;
+  grid-template-columns: 25% 25% 50%;
+  grid-gap: 20px;
+  background-color: black;
+  color: white;
+  height: 300px; }
+
+.g5-content div {
+  background-color: red;
+  text-align: center;
+  padding: 20px; }
+
+.item11 {
+  grid-row: span 2; }
+
+.grid-container6 {
+  background-color: black;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 4%; }
+
+.g6-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  background-color: black;
+  color: white; }
+
+.g6-container div {
+  background-color: red;
+  text-align: center;
+  font-size: 20px;
+  height: 200px; }
+
+.grid-container7 {
+  background-color: grey;
+  color: white;
+  padding-top: 3%;
+  padding-left: 10%; }
+
+.g7-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  color: white;
+  padding-right: 10%;
+  padding-bottom: 10%; }
+
+.g7-container div {
+  background-color: red;
+  height: 200px;
+  text-align: center;
+  padding: 1%; }
+
+.grid-container8 {
+  background-color: black;
+  color: white;
+  padding: 7%; }
+
+.g8-content {
+  display: grid;
+  grid-template-columns: auto;
+  color: white; }
+
+.g8-content div {
+  background-color: red;
+  height: 200px;
+  text-align: center; }
+
+.grid-container9 {
+  background-color: grey;
+  color: white;
+  padding: 7%; }
+
+.g9-content {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  color: white; }
+
+.g9-content div {
+  background-color: red;
+  height: 200px;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
