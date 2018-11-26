@@ -200,7 +200,7 @@
 .grid-container9{
     background-color: grey;
     color: white;
-    padding:7%;
+    padding: 5%;
 }
 
 .g9-content{
@@ -208,15 +208,62 @@
     // columns
     grid-template-columns: auto auto auto auto auto auto ;
     // spaces between blocks
+    grid-gap: 10px;
     color: white;
+    
    
 }
 
 .g9-content div{
     background-color: red;
+    height: 50px;
+    text-align: center;
+}
+
+.grid-container10{
+    background-color: grey;
+    color: white;
+    padding:7%;
+}
+
+.g10-content{
+    display: grid;
+    // columns
+    grid-template-columns: auto 15% 20% 20% ;
+    // spaces between blocks
+    grid-gap: 10px;
+    color: white;
+   
+}
+
+.g10-content div{
+    background-color: red;
     height: 200px;
     text-align: center;
 }
+
+.grid-container11{
+    background-color: black;
+    color: white;
+    padding:7%;
+}
+
+.g11-content{
+    display: grid;
+    // columns
+    grid-template-columns: auto auto ;
+    // spaces between blocks
+    grid-gap: 10px;
+    color: white;
+   
+}
+
+.g11-content div{
+    background-color: red;
+    height: 40px;
+    text-align: center;
+}
+
 
 
 
