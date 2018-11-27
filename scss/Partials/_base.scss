@@ -1,4 +1,18 @@
-
-// Imports of all the the scss
-
-// @import'partials/_buttons.scss'
+ nav{
+     font-size: 20px;
+     width: 100%;
+ }
+ .logo{
+     height: 70px;
+     width: 20%;
+     padding-right: 20%;
+ }
+ 
+ .banner{
+     background-image: url(../img/Code4CT.jpg);
+     height: 500px;
+     background-repeat: no-repeat;
+ }
+ .h-container{
+     background-color: rgba(0, 0, 0, 0.288);
+ }
