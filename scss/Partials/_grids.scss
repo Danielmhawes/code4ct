@@ -3,12 +3,12 @@
 .grid-container1{
     display: grid;
     // creating columns
-    grid-template-columns: 33,4% auto 33.3%;
+    grid-template-columns:1fr 1fr 1fr;
     // creating spaces between items or blocks
     grid-gap: 0;
     // background-color: black;
     color: white;
-    padding: 10px; 
+    // padding: 10px; 
 }
 
 .grid-container1 div {
@@ -26,6 +26,8 @@
     // background-color: black;
     color: white;
     padding: 20%;
+    height: 100px;
+    
 }
 
 .grid-container2 div{
@@ -33,6 +35,7 @@
     text-align: center;
     padding: 20px 0;
     font-size: 20px;
+   
 }
 
 

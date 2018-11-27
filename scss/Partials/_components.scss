@@ -1,0 +1,15 @@
+
+@import 'partials/variables';
+
+button{
+    background-color: $primary-color;
+    border-radius: 5%; 
+    border: 1px solid $primary-color;
+    height: 50px;
+    color: white
+}
+
+.button2{
+    background-color: rgba(0, 0, 0, 0.247);
+    border: 1px solid $secondary-color;
+}

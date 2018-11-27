@@ -1,26 +1,40 @@
-nav {
+button {
+  background-color: #e1918a;
+  border-radius: 5%;
+  border: 1px solid #e1918a;
+  height: 50px;
+  color: white; }
+
+.button2 {
+  background-color: rgba(0, 0, 0, 0.247);
+  border: 1px solid white; }
+
+.navigation {
   font-size: 20px;
   width: 100%; }
 
+.nav {
+  word-spacing: 10px; }
+
 .logo {
-  height: 70px;
-  width: 20%;
+  height: 40px;
+  width: 30%;
   padding-right: 20%; }
 
 .banner {
   background-image: url(../img/Code4CT.jpg);
-  height: 500px;
+  height: 50px;
   background-repeat: no-repeat; }
 
 .h-container {
-  background-color: rgba(0, 0, 0, 0.288); }
+  background-color: rgba(0, 0, 0, 0.288);
+  margin-bottom: 10%; }
 
 .grid-container1 {
   display: grid;
-  grid-template-columns: 33,4% auto 33.3%;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0;
-  color: white;
-  padding: 10px; }
+  color: white; }
 
 .grid-container1 div {
   text-align: center;
@@ -32,7 +46,8 @@ nav {
   grid-template-columns: 100%;
   grid-gap: 0;
   color: white;
-  padding: 20%; }
+  padding: 20%;
+  height: 100px; }
 
 .grid-container2 div {
   text-align: center;
