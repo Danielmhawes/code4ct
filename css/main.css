@@ -1,71 +1,216 @@
-/*
-Error: Invalid CSS after "//  }": expected "}", was ""
-        on line 18 of scss/partials/_base.scss
-        from line 3 of scss/main.scss
+nav {
+  font-size: 20px;
+  width: 100%; }
 
-13:      height: 500px;
-14:      background-repeat: no-repeat;
-15: //  }
-16: //  .h-container{
-17: //      background-color: rgba(0, 0, 0, 0.288);
-18: //  }
+.logo {
+  height: 70px;
+  width: 20%;
+  padding-right: 20%; }
 
-Backtrace:
-scss/partials/_base.scss:18
-scss/main.scss:3
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:1278:in `expected'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:1208:in `expected'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:1203:in `tok!'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:679:in `block'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:670:in `ruleset'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:696:in `block_child'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb:41:in `parse'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/engine.rb:414:in `_to_tree'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/engine.rb:321:in `to_tree'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.6.0/lib/sass/plugin/compiler.rb:320:in `block in watch'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"//  }\": expected \"}\", was \"\"\A         on line 18 of scss/partials/_base.scss\A         from line 3 of scss/main.scss\A \A 13:      height: 500px;\A 14:      background-repeat: no-repeat;\A 15: //  }\A 16: //  .h-container{\A 17: //      background-color: rgba(0, 0, 0, 0.288);\A 18: //  }"; }
+.banner {
+  background-image: url(../img/Code4CT.jpg);
+  height: 500px;
+  background-repeat: no-repeat; }
+
+.h-container {
+  background-color: rgba(0, 0, 0, 0.288); }
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 33,4% auto 33.3%;
+  grid-gap: 0;
+  color: white;
+  padding: 10px; }
+
+.grid-container1 div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 34px; }
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+  color: white;
+  padding: 20%; }
+
+.grid-container2 div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px; }
+
+.g3-content {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  grid-gap: 20px;
+  background-color: black;
+  color: white;
+  padding: 10%; }
+
+.g3-content div {
+  background-color: red;
+  text-align: center;
+  padding: 1%; }
+
+.item1 {
+  grid-column: span 1;
+  grid-row: span 2; }
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 3; }
+
+.item3 {
+  grid-column-start: 3;
+  grid-column-end: 4; }
+
+.grid-container4 {
+  background-color: black;
+  color: white;
+  padding-top: 3%;
+  padding-left: 10%; }
+
+.g4-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  background-color: black;
+  color: white;
+  padding-right: 10%;
+  padding-bottom: 10%; }
+
+.g4-container div {
+  background-color: red;
+  height: 200px;
+  text-align: center;
+  padding: 1%; }
+
+.grid-container5 {
+  background-color: black;
+  color: white;
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%; }
+
+.g5-content {
+  display: grid;
+  grid-template-columns: 25% 25% 50%;
+  grid-gap: 20px;
+  background-color: black;
+  color: white;
+  height: 300px; }
+
+.g5-content div {
+  background-color: red;
+  text-align: center;
+  padding: 20px; }
+
+.item11 {
+  grid-row: span 2; }
+
+.grid-container6 {
+  background-color: black;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 4%; }
+
+.g6-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  background-color: black;
+  color: white; }
+
+.g6-container div {
+  background-color: red;
+  text-align: center;
+  font-size: 20px;
+  height: 200px; }
+
+.grid-container7 {
+  background-color: grey;
+  color: white;
+  padding-top: 3%;
+  padding-left: 10%; }
+
+.g7-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  color: white;
+  padding-right: 10%;
+  padding-bottom: 10%; }
+
+.g7-container div {
+  background-color: red;
+  height: 200px;
+  text-align: center;
+  padding: 1%; }
+
+.grid-container8 {
+  background-color: black;
+  color: white;
+  padding: 7%; }
+
+.g8-content {
+  display: grid;
+  grid-template-columns: auto;
+  color: white; }
+
+.g8-content div {
+  background-color: red;
+  height: 200px;
+  text-align: center; }
+
+.grid-container9 {
+  background-color: grey;
+  color: white;
+  padding: 5%; }
+
+.g9-content {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  color: white; }
+
+.g9-content div {
+  background-color: red;
+  height: 50px;
+  text-align: center; }
+
+.grid-container10 {
+  background-color: grey;
+  color: white;
+  padding: 7%; }
+
+.g10-content {
+  display: grid;
+  grid-template-columns: auto 15% 20% 20%;
+  grid-gap: 10px;
+  color: white; }
+
+.g10-content div {
+  background-color: red;
+  height: 200px;
+  text-align: center; }
+
+.grid-container11 {
+  background-color: black;
+  color: white;
+  padding: 7%; }
+
+.g11-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  color: white; }
+
+.g11-content div {
+  background-color: red;
+  height: 40px;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
