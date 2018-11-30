@@ -1,21 +1,30 @@
  .navigation{
      font-size: 20px;
      width: 100%;
+     color: $grey;
      
  }
  .nav{
-    word-spacing: 10px;
+    word-spacing: 20px;
+   
 
+ }
+ a{
+     text-decoration: none;
+     
  }
  .logo{
      height: 40px;
      width: 30%;
      padding-right: 20%;
+     position: relative;
+     right: 100px;
      
  }
  
  .banner{
      background-image: url(../img/Code4CT.jpg);
+     background-size: cover;
      height: 50px;
      background-repeat: no-repeat;
  }

@@ -37,6 +37,19 @@ languages:
 - Readme created 
 - Created live link
 ```
+```
+- this priject has a navbar on how to navigate through the site
+- There are different pages
+```
+```
+- Home
+- Portfolio
+- About
+- Contact
+```
+
+###live link
+- https://danielmhawes.github.io/code4ct/index.html
 
 
 
