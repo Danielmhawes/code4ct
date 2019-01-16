@@ -2,14 +2,14 @@ button {
   background-color: #e1918a;
   border-radius: 5%;
   border: 1px solid #e1918a;
-  height: 50px;
+  height: 48px;
   color: white;
-  width: 100px; }
+  width: 170px; }
 
 .button2 {
   background-color: rgba(0, 0, 0, 0.247);
   border: 1px solid white;
-  width: 100px; }
+  width: 160px; }
 
 .navigation {
   font-size: 20px;
@@ -39,6 +39,19 @@ a {
   background-color: rgba(0, 0, 0, 0.288);
   margin-bottom: 10%; }
 
+.grid3img {
+  width: 270px;
+  height: 213px; }
+
+.whoarewe {
+  font-size: 24px; }
+
+.g3para {
+  font-size: 16px; }
+
+.g3para2 {
+  font-size: 14px; }
+
 .grid-container1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -66,14 +79,11 @@ a {
 .g3-content {
   display: grid;
   grid-template-columns: 50% 25% 25%;
-  grid-gap: 20px;
-  background-color: black;
-  color: white;
+  grid-gap: 10px;
+  color: #666666;
   padding: 10%; }
 
 .g3-content div {
-  background-color: red;
-  text-align: center;
   padding: 1%; }
 
 .item1 {
@@ -90,21 +100,19 @@ a {
 
 .grid-container4 {
   background-color: black;
-  color: white;
+  color: #666666;
   padding-top: 3%;
   padding-left: 10%; }
 
 .g4-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 250px 250px 250px 250px;
   grid-gap: 20px;
-  background-color: black;
-  color: white;
   padding-right: 10%;
   padding-bottom: 10%; }
 
 .g4-container div {
-  background-color: red;
+  color: white;
   height: 200px;
   text-align: center;
   padding: 1%; }

@@ -44,15 +44,12 @@
     // columns
     grid-template-columns: 50% 25% 25%;
     // spaces between blocks
-    grid-gap: 20px;
-    background-color: black;
-    color: white;
+    grid-gap: 10px;
+    color: #666666;
     padding: 10%;
 }
 
 .g3-content div{
-    background-color: red;
-    text-align: center;
     padding: 1%;
     
 }
@@ -70,8 +67,8 @@
     grid-column-end: 4;
 }
 .grid-container4{
-    background-color: black;
-    color: white;
+    background-color:black; 
+    color: #666666;
     padding-top: 3%;
     padding-left: 10%;
 }
@@ -79,17 +76,15 @@
 .g4-container{
     display: grid;
     // columns
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 250px 250px 250px 250px;
     // spaces between blocks
     grid-gap: 20px;
-    background-color: black;
-    color: white;
     padding-right: 10%;
     padding-bottom: 10%;
 }
 
 .g4-container div{
-    background-color: red;
+   color: white;
     height: 200px;
     text-align: center;
     padding: 1%;
