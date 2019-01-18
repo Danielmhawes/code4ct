@@ -67,10 +67,12 @@
     grid-column-end: 4;
 }
 .grid-container4{
-    background-color:black; 
     color: #666666;
     padding-top: 3%;
     padding-left: 10%;
+    width: 1920px;
+    height: auto;
+    background-color: #000000;
 }
 
 .g4-container{
@@ -92,8 +94,8 @@
 }
 
 .grid-container5{
-    background-color: black;
-    color: white;
+    background-color:white ;
+    color: #555555;
     padding-top: 3%;
     padding-left: 10%;
     padding-right: 10%;
@@ -105,18 +107,14 @@
     // columns
     grid-template-columns: 25% 25% 50%;
     // spaces between blocks
-    grid-gap: 20px;
-    background-color: black;
-    color: white;
-    height: 300px;
+    grid-gap: 10px;
     
+    color: white;
 }
 
 .g5-content div{
-    background-color: red;
     text-align: center;
-    padding: 20px;
-    
+   
 }
 .item11{
     grid-row: span 2;
@@ -124,8 +122,8 @@
 
 
 .grid-container6{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: #555555;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 4%;
@@ -136,23 +134,21 @@
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto auto;
     // spaces between blocks
-    grid-gap: 10px;
-    background-color: black;
-    color: white;
+    grid-gap: 20px;
+    color: #555555;
 }
 
 .g6-container div{
-    background-color: red;
-    text-align: center;
     font-size: 20px;
-    height: 200px;
+    
 }
 
 .grid-container7{
-    background-color: grey;
+    background-color: black;
     color: white;
     padding-top: 3%;
     padding-left: 10%;
+    height: 300px;;
 }
 
 .g7-container{
@@ -167,15 +163,13 @@
 }
 
 .g7-container div{
-    background-color: red;
-    height: 200px;
     text-align: center;
     padding: 1%;
     
 }
 .grid-container8{
-    background-color: black;
-    color: white;
+    background-color: white;
+    
     padding:7%;
 }
 
@@ -184,12 +178,12 @@
     // columns
     grid-template-columns: auto ;
     // spaces between blocks
-    color: white;
+    color: #555555;
+    font-size: 20px;
    
 }
 
 .g8-content div{
-    background-color: red;
     height: 200px;
     text-align: center;
 }

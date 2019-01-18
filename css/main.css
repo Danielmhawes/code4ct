@@ -29,6 +29,11 @@ a {
   position: relative;
   right: 100px; }
 
+.g3heading {
+  white-space: nowrap;
+  border-bottom: 3px solid pink;
+  width: 50px; }
+
 .banner {
   background-image: url(../img/Code4CT.jpg);
   background-size: cover;
@@ -40,8 +45,8 @@ a {
   margin-bottom: 10%; }
 
 .grid3img {
-  width: 270px;
-  height: 213px; }
+  width: 280px;
+  height: 200px; }
 
 .whoarewe {
   font-size: 24px; }
@@ -51,6 +56,21 @@ a {
 
 .g3para2 {
   font-size: 14px; }
+
+.icons {
+  font-size: 40px;
+  color: #E69286; }
+
+.grid6img {
+  height: 410px;
+  width: 590px; }
+
+.theteam {
+  width: 270px;
+  height: 250px; }
+
+.fas fa-paper-plane {
+  color: #E69286; }
 
 .grid-container1 {
   display: grid;
@@ -99,10 +119,12 @@ a {
   grid-column-end: 4; }
 
 .grid-container4 {
-  background-color: black;
   color: #666666;
   padding-top: 3%;
-  padding-left: 10%; }
+  padding-left: 10%;
+  width: 1920px;
+  height: auto;
+  background-color: #000000; }
 
 .g4-container {
   display: grid;
@@ -118,8 +140,8 @@ a {
   padding: 1%; }
 
 .grid-container5 {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #555555;
   padding-top: 3%;
   padding-left: 10%;
   padding-right: 10%;
@@ -128,22 +150,18 @@ a {
 .g5-content {
   display: grid;
   grid-template-columns: 25% 25% 50%;
-  grid-gap: 20px;
-  background-color: black;
-  color: white;
-  height: 300px; }
+  grid-gap: 10px;
+  color: white; }
 
 .g5-content div {
-  background-color: red;
-  text-align: center;
-  padding: 20px; }
+  text-align: center; }
 
 .item11 {
   grid-row: span 2; }
 
 .grid-container6 {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #555555;
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 4%; }
@@ -152,21 +170,18 @@ a {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: auto auto;
-  grid-gap: 10px;
-  background-color: black;
-  color: white; }
+  grid-gap: 20px;
+  color: #555555; }
 
 .g6-container div {
-  background-color: red;
-  text-align: center;
-  font-size: 20px;
-  height: 200px; }
+  font-size: 20px; }
 
 .grid-container7 {
-  background-color: grey;
+  background-color: black;
   color: white;
   padding-top: 3%;
-  padding-left: 10%; }
+  padding-left: 10%;
+  height: 300px; }
 
 .g7-container {
   display: grid;
@@ -177,23 +192,20 @@ a {
   padding-bottom: 10%; }
 
 .g7-container div {
-  background-color: red;
-  height: 200px;
   text-align: center;
   padding: 1%; }
 
 .grid-container8 {
-  background-color: black;
-  color: white;
+  background-color: white;
   padding: 7%; }
 
 .g8-content {
   display: grid;
   grid-template-columns: auto;
-  color: white; }
+  color: #555555;
+  font-size: 20px; }
 
 .g8-content div {
-  background-color: red;
   height: 200px;
   text-align: center; }
 
