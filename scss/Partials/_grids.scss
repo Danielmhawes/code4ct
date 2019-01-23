@@ -70,7 +70,6 @@
     color: #666666;
     padding-top: 3%;
     padding-left: 10%;
-    width: 1920px;
     height: auto;
     background-color: #000000;
 }
@@ -146,9 +145,8 @@
 .grid-container7{
     background-color: black;
     color: white;
-    padding-top: 3%;
-    padding-left: 10%;
-    height: 300px;;
+    
+    height: 200px;;
 }
 
 .g7-container{
@@ -169,8 +167,6 @@
 }
 .grid-container8{
     background-color: white;
-    
-    padding:7%;
 }
 
 .g8-content{
@@ -189,9 +185,8 @@
 }
 
 .grid-container9{
-    background-color: grey;
-    color: white;
-    padding: 5%;
+    background-color: black;
+    color: #555555;
 }
 
 .g9-content{
@@ -201,20 +196,19 @@
     // spaces between blocks
     grid-gap: 10px;
     color: white;
+    height: 222px;
     
    
 }
 
 .g9-content div{
-    background-color: red;
     height: 50px;
     text-align: center;
 }
 
 .grid-container10{
-    background-color: grey;
-    color: white;
-    padding:7%;
+    color: #555555;
+   
 }
 
 .g10-content{
@@ -223,22 +217,31 @@
     grid-template-columns: auto 15% 20% 20% ;
     // spaces between blocks
     grid-gap: 10px;
-    color: white;
+    color:#555555;
    
 }
 
+
 .g10-content div{
-    background-color: red;
     height: 200px;
-    text-align: center;
+    text-align: left;
+    
 }
+.ul{
+    font-size: 0.875em;
+
+}
+.footer-hd{
+    
+}
+
 
 //footer for then home page
 
 .grid-container11{
     background-color: black;
     color: white;
-    padding:7%;
+    
 }
 
 .g11-content{
@@ -252,7 +255,6 @@
 }
 
 .g11-content div{
-    background-color: red;
     height: 40px;
     text-align: center;
 }

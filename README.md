@@ -38,7 +38,7 @@ languages:
 - Created live link
 ```
 ```
-- this priject has a navbar on how to navigate through the site
+- this project has a navbar on how to navigate through the site
 - There are different pages
 ```
 ```
