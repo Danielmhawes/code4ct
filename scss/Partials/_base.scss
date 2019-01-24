@@ -72,3 +72,50 @@
 h3{
     font-size: 1.5rem;
 }
+
+// portfolio section styles
+
+.portfolio{
+    height: 300px;
+}
+
+.our-awesome-portfolio {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.08;
+    letter-spacing: normal;
+    text-align: center;
+    color: #555555;
+    padding-top: 5%;
+  }
+  .Rectangle-8 {
+    width: 50px;
+    height: 3px;
+    background-color: #ee534f;
+    margin-left: 48%;
+  }
+  .Rectangle-8-copy {
+    width: 277px;
+    height: 1px;
+    background-color: #e7e7e7;
+  }
+  .portfolio-text {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666;
+  }
+// .our-portfolio div{
+//     text-align: center;
+//     margin-left: 20%;
+//     margin-right: 20%;
+//     padding-top: 5%;
+// }
