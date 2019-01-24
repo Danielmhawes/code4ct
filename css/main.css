@@ -258,6 +258,11 @@ h3 {
   height: 40px;
   text-align: center; }
 
+body {
+  background-color: #FFFFFF;
+  margin: 0;
+  font-family: 'Poppins', sans-serif; }
+
 body, html {
   margin: 0;
   height: 100%; }
@@ -300,5 +305,14 @@ body, html {
 .partners {
   width: 200px;
   height: 200px; }
+
+.aboutus {
+  background-color: #e7e7e7;
+  height: 320px; }
+
+.abouttext {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 100px; }
 
 /*# sourceMappingURL=main.css.map */
