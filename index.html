@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <script src="js.main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -25,6 +27,7 @@
         <!-- search box to the right of the nav bar -->
         <div class="searchbox">
             <input type="text" placeholder="Search..">
+            <button type="button"><i class="fa fa-search"></i></button>
         </div>
         <!-- Search box goes here -->
     </div>
@@ -37,14 +40,12 @@
                 <p>We want to see young women empowered to leverage technology for social innovation, so that there is
                     greater diversity in the African tech industry. We want high school girls to have an enabling
                     environment to imagine and create new technology that is relevant to a South African context.</p>
-                <button>Start coding</button>/
+                <button class="btn">Start coding</button>/
                 <button class="button2">Donate</button>
             </div>
         </div>
 
     </div>
-
-
 
     <div class="grid-container3">
         <div class="g3-content">
@@ -73,7 +74,6 @@
 
         </div>
     </div>
-    <hr>
 
     <div class="grid-container4">
         <div class="g4-container">
@@ -138,15 +138,19 @@
             <div class="item15"><img class="theteam" src="img/codecamp-girls2.jpg" alt=""></div>
             <div class="content">
                 <p>content</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, similique consequatur delectus
-                    dignissimos accusamus eligendi.</p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, similique consequatur delectus
+                    dignissimos accusamus eligendi.
+                </p>
             </div>
 
             <div class="item16"><img class="theteam" src="img/codecamp-girls2.jpg" alt=""></div>
             <div class="content">
                 <p>content</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, similique consequatur delectus
-                    dignissimos accusamus eligendi.</p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, similique consequatur delectus
+                    dignissimos accusamus eligendi.
+                </p>
             </div>
 
             <div class="item17"><img class="theteam" src="img/codecamp-girls2.jpg" alt=""></div>
@@ -160,13 +164,25 @@
 
     <div class="grid-container7">
         <div class="g7-container">
-            <div class="item18"> 4850+</div>
-            <div class="item19"> 780+</div>
-            <div class="item20">3120+</div>
-            <div class="item21"> 8760+</div>
+            <div class="item18">
+                <p>4850+</p>
+                <p>Cups of coffee</p>
+            </div>
+            <div class="item19">
+                <p>780+</p>
+                <p>Numbers of girls</p>
+            </div>
+            <div class="item20">
+                <p>3120+</p>
+                <p>Projects completed</p>
+            </div>
+            <div class="item21">
+                <p>8760+</p>
+                <p>Hours of coding</p>
+            </div>
         </div>
-    </div>
 
+    </div>
     <div class="grid-container8">
 
 
@@ -186,23 +202,69 @@
         </div>
     </div>
 
-    <div class="grid-container9">
-        <div class="g9-content">
-            <div class="item23"> partner1</div>
-            <div class="item24"> partner2</div>
-            <div class="item25"> partner3</div>
-            <div class="item26"> partner4</div>
-            <div class="item27"> partner5</div>
-            <div class="item28"> partner6</div>
 
+    <div class="wrap">
+        <div class="slide-container">
+            <ul class="slides">
+                <li>
+                    <div><span><img class="partners" src="img/Code4CT-Partners-Automattic-Logo.png" alt=""></span></div>
+                </li>
+                <li>
+                    <div><span><img class="partners" src="img/Code4CT-Partners-CSG-Logo.png" alt=""></span></div>
+                </li>
+                <li>
+                    <div><span><img class="partners" src="img/Code4CT-Partners-Deloitte-Digital.png" alt=""></span></div>
+                </li>
+                <li>
+                    <div><span><img class="partners" src="img/Code4CT-Partners-Lwande.png" alt=""></span></div>
+                </li>
+                <li>
+                    <div><span><img class="partners" src="img/Code4CT-Partners-Mobenzi-Logo.png" alt=""></span></div>
+                </li>
+                <li>
+                    <div><span><img class="partners" src="img/Code4CT-Partners-Open-Box.png" alt=""></span></div>
+                </li>
+                <li>
+                    <div><span><img class="partners" src="img/Code4CT-Partners-Saratoga-Logo.png" alt=""></span></div>
+                </li>
+                <li>
+                    <div><span><img class="partners" src="img/Code4CT-Partners-Take-A-Lot-Logo-1.png" alt=""></span></div>
+                </li>
+                <li>
+                    <div><span><img class="partners" src="img/Code4CT-Partners-TNS.png" alt=""></span></div>
+                <li>
+                    <div><span><img class="partners" src="img/Code4CT-Partners-US-Department-Of-State-Logo.png" alt=""></span></div>
+                </li>
+                <li>
+                    <div><span><img class="partners" src="img/Code4ct-Partners-WeTech.png" alt=""></span></div>
+                </li>
+                <li>
+                    <div><span><img class="partners" src="img/Code4ct-Partners-Where-Is-My-Transport.png" alt=""></span></div>
+                </li>
+
+                <li>
+                    <div><span><img class="partners" src="img/DGMurrayTrust-1.png" alt=""></span></div>
+                </li>
+                <li>
+                    <div><span><img class="partners" src="img/partner_capitec-1.png" alt=""></span></div>
+                </li>
+                <li>
+                    <div><span><img class="partners" src="img/partner_google-1.png" alt=""></span></div>
+                </li>
+                <li>
+                    <div><span><img class="partners" src="img/rsz_1aws_logo_web_300px_2.png" alt=""></span></div>
+                </li>
+            </ul>
         </div>
     </div>
+
 
     <div class="grid-container10">
         <div class="g10-content">
             <div class="item29">
                 <p>Nullam tristique nunc sit amet congue, eget sollicitudin orci nisl.</p>
-                <p>+(000)00-000-0000</p>
+                <p>
+                    <i class="fas fa-phone"></i>+(000)00-000-0000</p>
                 <p>youremail@company.com</p>
                 <p>Physical Address.</p>
             </div>
@@ -238,12 +300,19 @@
     <footer>
         <div class="grid-container11">
             <div class="g11-content">
-                <div class="item33"> copyright</div>
-                <div class="item34"> follow us</div>
+                <div class="item33"> copyright  2017 PRIVACY POLICY</div>
+                <div class="item34"> follow us:
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-google-plus"></i>
+                </div>
             </div>
         </div>
 
     </footer>
+
+    <script src="js/main.js"></script>
 
 
 </body>

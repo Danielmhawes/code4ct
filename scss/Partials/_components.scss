@@ -1,7 +1,7 @@
 
 @import 'partials/variables';
 
-button{
+.btn{
     background-color: $pink;
     border-radius: 5%; 
     border: 1px solid $pink;
@@ -12,6 +12,9 @@ button{
 
 .button2{
     background-color: rgba(0, 0, 0, 0.247);
+    color: white;
+    border-radius: 5%;
     border: 1px solid $white;
     width: 160px;
+    height: 48px;
 }

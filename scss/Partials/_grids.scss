@@ -70,14 +70,14 @@
     color: #666666;
     padding-top: 3%;
     padding-left: 10%;
-    height: auto;
+    height: 400px;
     background-color: #000000;
 }
 
 .g4-container{
     display: grid;
     // columns
-    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-columns: auto auto auto auto;
     // spaces between blocks
     grid-gap: 20px;
     padding-right: 10%;
@@ -85,7 +85,7 @@
 }
 
 .g4-container div{
-   color: white;
+    color: white;
     height: 200px;
     text-align: center;
     padding: 1%;
@@ -208,6 +208,7 @@
 
 .grid-container10{
     color: #555555;
+    padding: 10%;
    
 }
 
@@ -231,9 +232,7 @@
     font-size: 0.875em;
 
 }
-.footer-hd{
-    
-}
+
 
 
 //footer for then home page
@@ -251,6 +250,7 @@
     // spaces between blocks
     grid-gap: 10px;
     color: white;
+    background-color: #e1918a;
    
 }
 
