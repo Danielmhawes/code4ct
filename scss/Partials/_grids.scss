@@ -262,6 +262,30 @@
     text-align: center;
 }
 
+.grid-container-12{
+    display: grid;     
+    // columns
+    grid-template-columns: 50% 50%;
+    // spaces between blocks
+    grid-gap: 10px;
+    color: #666666;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 216px;
+    margin-right: 216px;
+    }
+
+
+    .grid-container-13{
+        display: grid;
+        // columns
+        grid-template-columns: 50% 50%;
+        // spaces between blocks
+        grid-gap: 10px;
+        color: #666666;
+    }
+
+
 
 
 
