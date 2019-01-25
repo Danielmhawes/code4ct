@@ -9,6 +9,9 @@
     // background-color: black;
     color: white;
     // padding: 10px; 
+    position: fixed;
+    background-color: white;
+    width: 100%;
 }
 
 .grid-container1 div {
@@ -287,16 +290,12 @@
         padding-bottom: 4%;;
     }
 
+    // portfolio
 
-
-
-
-
-
-
-
-
-
-
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0px;
+}
 
 
