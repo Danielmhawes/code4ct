@@ -62,7 +62,7 @@ a {
 
 .icons {
   font-size: 40px;
-  color: #E69286; }
+  color: #e1918a; }
 
 .grid6img {
   height: 410px;
@@ -73,7 +73,7 @@ a {
   height: 250px; }
 
 .fa-paper-plane {
-  color: #E69286; }
+  color: #e1918a; }
 
 h3 {
   font-size: 1.5rem; }
@@ -96,7 +96,7 @@ h3 {
 .Rectangle-8 {
   width: 50px;
   height: 3px;
-  background-color: #ee534f;
+  background-color: #e1918a;
   margin-left: 48%; }
 
 .Rectangle-8-copy {
@@ -312,7 +312,9 @@ h3 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-gap: 10px;
-  color: #666666; }
+  color: #666666;
+  padding-top: 4%;
+  padding-bottom: 4%; }
 
 .item29 {
   margin-top: 9%;
@@ -399,7 +401,7 @@ body, html {
 .border-line {
   width: 50px;
   height: 3px;
-  background-color: #ee534f; }
+  background-color: #e1918a; }
 
 .image-here {
   width: 570px;
@@ -422,7 +424,7 @@ body, html {
   width: 160px;
   height: 40px;
   padding-top: 0px;
-  background-color: #ee534f; }
+  background-color: #e1918a; }
 
 .our-courses {
   font-family: Poppins;
@@ -448,5 +450,75 @@ body, html {
 
 .who-we-are-text {
   height: 550px; }
+
+.vision {
+  color: #e1918a;
+  font-family: Poppins;
+  font-size: 16px; }
+
+.value {
+  color: #e1918a;
+  font-family: Poppins;
+  font-size: 16px; }
+
+.section_1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-start: 1;
+  grid-column-end: 2; }
+
+.section_1 {
+  padding: 10%;
+  background-color: white; }
+
+.section_1 form .input-1 {
+  border-radius: 4px;
+  border: 1px #e7e7e7 solid;
+  padding: 12px 24px; }
+
+form .input-1 {
+  border-radius: 4px;
+  border: 1px #e7e7e7 solid;
+  padding: 10px 27px; }
+
+.input-2 {
+  border-radius: 4px;
+  border: 1px #e7e7e7 solid;
+  width: 643px;
+  height: 200px;
+  padding: 10px; }
+
+.button-1 {
+  margin-top: 30px;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 28px;
+  color: white;
+  border: 1px solid #e1918a;
+  border-radius: 2px;
+  background-color: #e1918a;
+  text-align: center;
+  cursor: pointer; }
+
+.body-text2 {
+  display: inline-block;
+  margin-left: 80px; }
+
+.section_1 .border2 {
+  width: 30%;
+  color: #e38f84;
+  border-top: 3px solid;
+  opacity: 30%; }
+
+.section_1 .contact-box {
+  display: flex;
+  align-items: center; }
+
+.section_1 img {
+  width: 15px;
+  border: #e7e7e7 solid 1px;
+  border-radius: 4px;
+  padding: 3px;
+  display: inline-flex; }
 
 /*# sourceMappingURL=main.css.map */
