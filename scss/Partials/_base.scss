@@ -2,6 +2,7 @@ body {
     background-color: #FFFFFF;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
   body, html{
@@ -10,13 +11,13 @@ body {
     } 
  
  .navigation{
-     font-size: 20px;
+     font-size: 1.250em;
      width: 100%;
      color: $grey;
      
  }
  .nav{
-    word-spacing: 20px;
+    word-spacing: 1.950em;
  }
 
  a{
@@ -31,24 +32,24 @@ body {
  }
 
  .logo{
-     height: 40px;
+     height: 2.500em;
      width: 30%;
      padding-right: 20%;
      position: relative;
-     right: 100px;
+     right: 6.250em;
      
  }
 
  .g3heading{
      white-space: nowrap;
      border-bottom: 3px solid pink;
-     width: 50px;
+     width: 3.125em;
  }
 
  .banner{
      background-image: url(../img/Code4CT.jpg);
      background-size: cover;
-     height: 50px;
+     height:3.125em;
      background-repeat: no-repeat;
  }
  
@@ -57,12 +58,12 @@ body {
  }
 
  .grid3img{
-    width: 280px;
-    height: 200px;
+    width: 17.500em;
+    height: 12.500em;
 }
 
 .whoarewe{
-    font-size: 24px;
+    font-size: 1.500em;
 }
 
 .item29{
@@ -74,31 +75,48 @@ body {
 }
 
 .fab{
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
 .g3para{
-    font-size: 16px;
+    font-size: 1.000em;
     color: #333333
+}
+hr{
+  border: 2px solid #E69286;
+margin: 0 200px 0 0;
 }
 
 .g3para2{
-    font-size:14px;
+    font-size:0.875em;
 }
 
 .icons{
-    font-size: 40px;
+    font-size: 2.500em;
     color: $pink;
 }
-
+.team-name{
+  font-size: 1em;
+}
+.position{
+  font-size: 0.875em;
+  color: #a4a5a5;
+}
+.about-person{
+  color: #a4a5a5;
+  font-size: 0.875em;
+}
+.fab{
+  color: #a4a5a5;
+}
 .grid6img{
-    height: 410px;
-    width:590px;
+    height: 25.625em;
+    width:36.875em;
 }
 
 .theteam{
-    width: 270px;
-    height: 250px;
+    width:16.875em;
+    height: 15.625em;
 }
 
 .type{
@@ -108,21 +126,21 @@ body {
 
 .aboutus{
     background-color: #e7e7e7;
-    height: 320px;
+    height: 20.000em;
     
   }
 
   .abouttext{
-    font-size: 14px;
+    font-size: 0.875em;
     text-align: center;
     padding-top: 100px;
   }
 
 .welcome-to-code4ct {
-    width: 266px;
-    height: 19px;
+    width: 16.625em;
+    height: 1.188em;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 1.500em;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -319,13 +337,16 @@ h3{
     margin-left: 20%;
     margin-right: 20%;
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 300;
     line-height: 1.86;
     letter-spacing: normal;
     text-align: center;
     color: #666666;
   }
+.rows{
+  padding-bottom: 5%;
+}
 // .our-portfolio div{
 //     text-align: center;
 //     margin-left: 20%;
@@ -341,7 +362,7 @@ h3{
     
   }
   .coursestext{
-    font-size: 14px;
+    font-size: 0.875em;
     text-align: center;
     padding-top: 100px;
   }
@@ -358,15 +379,18 @@ h3{
   .wrap{
     width: 100%;
     height:222px;
+    position: unset;
     position: relative;
     overflow:hidden;
     background-color: black;
+
   }
   
   .slide-container{
     position:absolute;
     left:0;
     height:100%;
+  
   }
   
   .slides{
@@ -375,7 +399,7 @@ h3{
     flex-wrap:no-wrap;
     height: 100%;;
     margin:0;
-    padding:0;
+
   }
   
   .animate{
@@ -405,3 +429,24 @@ h3{
       width: 200px;
       height: 200px;
   }
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #E69286;
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 16px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  

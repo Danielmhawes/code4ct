@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CODE4CT | Young women leveraging tech for social innovation</title>
+    <title>About | Young women leveraging tech for social innovation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
@@ -12,7 +12,9 @@
     
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
-
+        <link rel="stylesheet" type="text/css" href="loading-bar.css"/> 
+        <script type="text/javascript" src="loading-bar.js"></script>
+        <style type="text/css"> .ldBar-label { color: red; font-family: tahoma; font-size: 2.1em; font-weight: 900 } </style>
 </head>
 
 <body>
@@ -37,7 +39,7 @@
     <div class="aboutus">
         <div class="abouttext">
             <h3>About us</h3>
-            <p><i class="type">HOME</i>  ABOUT US</p>
+            <p><i class="type">HOME</i><i class="fas fa-long-arrow-alt-right"></i> ABOUT US</p>
         </div>
     </div>
 
@@ -108,11 +110,21 @@
             </div>
         </div>
     </div>
+    
 
-    <div class="grid-container7">
+    <div
+    class="ldBar label-center"
+    style="width:50%;height:50%;margin:auto"
+    data-value="35"
+    data-preset="circle"
+  ></div>
+  
+      
+
+    <!-- <div class="grid-container7">
         <div class="g7-container">
-            <div class="item18">
-                <p></p>
+            <div class="prog">
+                <p class="inner">85%</p> 
                 <p>Further Studies</p>
                 <p>Lorem ipsum dolor sit amet consectet adipiscing elit. Pellentesque.</p>
             </div>
@@ -133,7 +145,7 @@
             </div>
         </div>
 
-    </div>
+    </div> -->
     <div class="grid-container8">
 
 
@@ -264,6 +276,7 @@
         </div>
 
     </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
 
     <script src="js/main.js"></script>
 

@@ -9,6 +9,9 @@
     color: $white;
     width:170px;
 }
+.btn:hover{
+    padding-right:5%;
+}
 
 .button2{
     background-color: rgba(0, 0, 0, 0.247);
@@ -27,3 +30,25 @@
     color: $white;
     width:100px;
 }
+.readmore{
+    background-color: $pink;
+    border-radius: 5%; 
+    border: 1px solid $pink;
+    height: 48px;
+    color: white;
+    width:170px;
+}
+
+// contact buttons
+.button-1 {
+    margin-top: 30px;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 28px;
+    color: white;
+    border: 1px solid $pink;
+    border-radius: 2px;
+    background-color: $pink;
+    text-align: center;
+    cursor: pointer;
+  }
