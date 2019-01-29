@@ -310,4 +310,24 @@
 
 }
 
+// Courses grids
+.course-gcontainer{
+    display: grid;
+    grid-template-columns: 100px 70px 800px 70px 50px auto;
+    border: 1px $pink solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
+    text-align: center;
+}
+.course-gcontainer2{
+    display: grid;
+    grid-template-columns: 100px 800px 70px 50px auto;
+    border: 1px $pink solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 150px;
+    text-align: center;
+}
+
 
