@@ -18,6 +18,22 @@
         height: 200px;
         position: relative;
       }
+
+      .counter-text{
+        color: white;
+        
+      }
+      .counter-value{
+          margin-top: 3%;
+          border-top: 4px solid #e38f84;
+          width: 7%;
+          margin-left: 45%;
+      }
+
+      .map{
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+      }
     
 
    

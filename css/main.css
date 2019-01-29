@@ -206,7 +206,7 @@ hr {
   color: #ffffff; }
 
 .image-here-2 {
-  width: 600px;
+  width: 747px;
   height: 550px; }
 
 .who-we-are {
@@ -248,12 +248,12 @@ hr {
 .section_1 form .input-1 {
   border-radius: 4px;
   border: 1px #e7e7e7 solid;
-  padding: 12px 24px; }
+  padding: 10px 20px; }
 
 form .input-1 {
   border-radius: 4px;
   border: 1px #e7e7e7 solid;
-  padding: 10px 27px; }
+  padding: 10px 22px; }
 
 .input-2 {
   border-radius: 4px;
@@ -345,6 +345,10 @@ h3 {
 .gallery {
   width: 100%;
   height: 100%; }
+  .gallery .gallery {
+    transition: transform 0.3s ease-in-out; }
+    .gallery .gallery .gallery:hover {
+      transform: scale(1.2); }
 
 .wrap {
   width: 100%;
@@ -613,7 +617,7 @@ h3 {
 
 .grid-container-13 {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 45%;
   grid-gap: 10px;
   color: #666666;
   padding-top: 4%;
@@ -624,10 +628,30 @@ h3 {
   grid-template-columns: auto auto auto auto;
   grid-gap: 0px; }
 
+.section1 {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
 #container {
   margin: 20px;
   width: 200px;
   height: 200px;
   position: relative; }
+
+.counter-text {
+  color: white; }
+
+.counter-value {
+  margin-top: 3%;
+  border-top: 4px solid #e38f84;
+  width: 7%;
+  margin-left: 45%; }
+
+.map {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
 
 /*# sourceMappingURL=main.css.map */
